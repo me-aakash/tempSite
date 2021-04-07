@@ -1,19 +1,64 @@
 <!DOCTYPE html>
 <html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+</style>
+</head>
 <body>
 
-<h2>Send e-mail to someone@example.com:</h2>
+<div class="topnav">
+  <a class="active" href="#home">Home</a>
+  <a href="#news">News</a>
+  <a href="#contact">Contact</a>
+  <a href="#about">About</a>
+</div>
 
-<form action="mailto:r8s8a8m8@gmail.com" method="post" enctype="text/plain">
-Name:<br>
-<input type="text" name="name"><br>
-E-mail:<br>
-<input type="text" name="mail"><br>
-Comment:<br>
-<input type="text" name="comment" size="50"><br><br>
-<input type="submit" value="Send">
-<input type="reset" value="Reset">
-</form>
+<div style="padding-left:16px">
+  <h2>Top Navigation Example</h2>
+  <p>Some content..</p>
+</div>
+
+<div class="container-fluid" id="about" style="padding-left:16px" style="padding-right:16px">
+  <h1>About Us</h1>
+  <p>
+    We, at fellowtutor have entered this profession with the aim of providing
+world class tutoring sessions to students all across Canada without 
+compromising the content quality of teaching.
+The dilema we had during our time was that other tutoring firms recruit
+students with no standardised teaching experience.
+SO we came up with the solution to that. All of our mentors have at least
+a year of tutoring experiecnce. They have a history of managing students
+across different intellects and varied speed of learning.
+So if your child gets any mentor through us, stay affirmitive of his 
+growth academically.
+
+  </p>
+</div>
 
 </body>
 </html>
